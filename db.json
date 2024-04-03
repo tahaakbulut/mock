@@ -95,6 +95,11 @@
       "id":2,
       "name":"Duman",
       "image":"https://picsum.photos/id/433/200/300"
+    },
+    {
+      "id":3,
+      "name":"Kurt",
+      "image":"https://picsum.photos/id/582/200/300"
     }
   ],
   "appointments": [
