@@ -1,31 +1,62 @@
 {
-  "posts": [
+  "doctors": [
     {
       "id": 1,
-      "title": "Post 1"
+      "title": "Hakan Yılmaz"
     },
     {
       "id": 2,
-      "title": "Post 2"
+      "title": "Mehmet Yıldırım"
     },
     {
       "id": 3,
-      "title": "Post 3"
+      "title": "Gamze Süzer"
+    },
+    {
+      "id": 4,
+      "title": "Merve Kaya"
+    },
+    {
+      "id": 5,
+      "title": "Cansu Yılmaz"
     }
-  ],
-  "comments": [
+  ]
+  ,
+  "doctor-detail": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "Hakan Yılmaz",
+      "profession": "dentist",
+      "duration": 30,
+      "per_price": 5
     },
     {
       "id": 2,
-      "body": "some comment",
-      "postId": 1
+      "title": "Mehmet Yıldırım",
+      "profession": "doctor",
+      "duration": 30,
+      "per_price": 15
+    },
+    {
+      "id": 3,
+      "title": "Gamze Süzer",
+      "profession": "psychologist",
+      "duration": 30,
+      "per_price": 10
+    },
+    {
+      "id": 4,
+      "title": "Merve Kaya",
+      "profession": "veterinarian",
+      "duration": 60,
+      "per_price": 25
+    },
+    {
+      "id": 5,
+      "title": "Cansu Yılmaz",
+      "profession": "veterinarian",
+      "duration": 15,
+      "per_price": 20
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
