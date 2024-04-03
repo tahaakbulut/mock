@@ -21,33 +21,6 @@
       "title": "Cansu Yılmaz"
     }
   ],
-  "coupons":[
-    {
-      "code": "CODE20",
-      "expiration_at": "21-12-2022",
-      "discount_amount": "20"
-    },
-    {
-      "code": "CODE40",
-      "expiration_at": "29-01-2023",
-      "discount_amount": "40"
-    },
-    {
-      "code": "CODE60",
-      "expiration_at": "11-05-2024",
-      "discount_amount": "60"
-    },
-    {
-      "code": "CODE80",
-      "expiration_at": "05-07-2024",
-      "discount_amount": "80"
-    },
-    {
-      "code": "CODE100",
-      "expiration_at": "21-12-2025",
-      "discount_amount": "100"
-    }
-  ],
   "doctor-detail": [
     {
       "id": 1,
@@ -83,6 +56,62 @@
       "profession": "veterinarian",
       "duration": 15,
       "per_price": 20
+    }
+  ],
+  "coupons": [
+    {
+      "code": "CODE20",
+      "expiration_at": "21-12-2022",
+      "discount_amount": "20"
+    },
+    {
+      "code": "CODE40",
+      "expiration_at": "29-01-2023",
+      "discount_amount": "40"
+    },
+    {
+      "code": "CODE60",
+      "expiration_at": "11-05-2024",
+      "discount_amount": "60"
+    },
+    {
+      "code": "CODE80",
+      "expiration_at": "05-07-2024",
+      "discount_amount": "80"
+    },
+    {
+      "code": "CODE100",
+      "expiration_at": "21-12-2025",
+      "discount_amount": "100"
+    }
+  ],
+  "pets":[
+    {
+      "id":1,
+      "name":"Zeytin",
+      "image":"https://picsum.photos/id/237/200/300"
+    },
+    {
+      "id":2,
+      "name":"Duman",
+      "image":"https://picsum.photos/id/433/200/300"
+    }
+  ],
+  "appointments": [
+    {
+      "doctor_id": 3,
+      "start_time": "18:00:00",
+      "end_time": "18:30:00",
+      "complaint_Id": "Şikayet Adı",
+      "pet_Id": 3,
+      "per_price": 30,
+      "duration": 30,
+      "coupon_code": "CODE20",
+      "card_name": "Ali Yılmaz",
+      "card_number": "1111222233334444",
+      "card_date_month": "01",
+      "card_date_year": "2030",
+      "card_cvv": "999"
     }
   ]
 }
