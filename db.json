@@ -20,8 +20,34 @@
       "id": 5,
       "title": "Cansu Yılmaz"
     }
-  ]
-  ,
+  ],
+  "coupons":[
+    {
+      "code": "CODE20",
+      "expiration_at": "21-12-2022",
+      "discount_amount": "20"
+    },
+    {
+      "code": "CODE40",
+      "expiration_at": "29-01-2023",
+      "discount_amount": "40"
+    },
+    {
+      "code": "CODE60",
+      "expiration_at": "11-05-2024",
+      "discount_amount": "60"
+    },
+    {
+      "code": "CODE80",
+      "expiration_at": "05-07-2024",
+      "discount_amount": "80"
+    },
+    {
+      "code": "CODE100",
+      "expiration_at": "21-12-2025",
+      "discount_amount": "100"
+    }
+  ],
   "doctor-detail": [
     {
       "id": 1,
